@@ -16,8 +16,25 @@ export function meta() {
 export function links() {
     return [
         {
+            rel: StyleSheet,
+            href: 'https://necolas.github.io/normalize.css/8.0.1/normalize.css'
+        },
+        {
             rel: 'stylesheet',
             href: styles
+        },
+        {
+            rel: 'preconect',
+            href: "https://fonts.googleapis.com"
+        },
+        {
+            rel: 'preconect',
+            href: "https://fonts.gstatic.com",
+            crossOrigin: "true"
+        },
+        {
+            rel: 'stylesheet',
+            href: "https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap"
         }
     ]
 }
