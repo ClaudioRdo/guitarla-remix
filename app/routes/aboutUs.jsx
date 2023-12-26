@@ -1,4 +1,10 @@
-
+export function Meta() {
+  return (
+    {
+      title: 'GuitarLA - About Us'
+    }
+  )
+}
 
 const AboutUs = () => {
   return (
