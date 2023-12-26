@@ -1,10 +1,13 @@
 import { Link } from '@remix-run/react';
+import logo from '../../public/img/logo.svg'
 
 const Header = () => {
     return (
         <header className="header">
             <div className="cantainer bar">
-                <div className="logo"></div>
+                <Link to="/">
+                    <img src={logo} alt="logo image" className='logo'/>
+                </Link>
                 <nav className="navigation">
                     <Link
                         to="/"
@@ -23,7 +26,6 @@ const Header = () => {
                         prefetch='render'
                     >Blog</Link>
                 </nav>
-
             </div>
         </header>
     )
